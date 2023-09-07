@@ -1,4 +1,4 @@
-package com.dev.bookstore;
+package br.dev.bookstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BookstoreApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BookstoreApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(BookstoreApplication.class, args);
+    }
+
 
 }
